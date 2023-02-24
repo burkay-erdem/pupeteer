@@ -1,0 +1,137 @@
+
+  // const Clicker = async (selectorPath) => {
+  //   await new Promise((r) => setTimeout(r, 2000));
+  //   const selector = selectorPath;
+  //   await page.waitForSelector(selector);
+  //   await page.click(selector);
+  // };
+  // const Typer = async (text) => {
+  //   await page.keyboard.type(text, { delay: 100 });
+  // };
+
+  // Wait and click on first result
+
+
+
+//Profile Icon Click
+  // const profileIconButtonSelector = ".profile";
+  // await page.waitForSelector(profileIconButtonSelector);
+  // await page.click(profileIconButtonSelector);
+  // await new Promise(r => setTimeout(r, 2000))
+
+  //Login Popup Opener Button Click
+  // const loginPopupOpenButtonSeletor='.auth-button:nth-child(1)'
+  // await page.waitForSelector(loginPopupOpenButtonSeletor);
+  // await page.click(loginPopupOpenButtonSeletor);
+
+  //Click Email text input
+  // const emailTextInputSeletor='body > app-root > app-modal > div > div > div > div > app-login > div > div > form > label:nth-child(1) > input'
+  // await page.waitForSelector(emailTextInputSeletor);
+  // await page.click(emailTextInputSeletor);
+
+  //Type e-mail
+  // await page.keyboard.type('ugurtest6@kayra.com', {delay: 100});
+
+  //Press Tab
+  // await page.keyboard.press("Tab")
+
+  //Type password
+  //  await page.keyboard.type('Ugur.123', {delay: 100});
+
+  //Press Enter
+  //  await page.keyboard.press("Enter")
+
+  //Wait and  Profile Icon Click
+
+  //  await new Promise(r => setTimeout(r, 2000))
+  //  await page.waitForSelector(profileIconButtonSelector);
+  //  await page.click(profileIconButtonSelector);
+
+  // //Click My Address
+  //  await new Promise(r => setTimeout(r, 2000))
+  //  const myAddressButton='   app-user-actions > div > app-profile-action > div > div > app-dropdown > div > div > div > a:nth-child(5)'
+  //  await page.waitForSelector(myAddressButton);
+  //  await page.click(myAddressButton);
+
+  //Click AddAddress Button
+  //  await new Promise(r => setTimeout(r, 2000))
+  //  const addAddressButton="body > app-root > app-shop > app-account > div > div > div.col-span-12.content > app-user > app-address > div > div > div > button"
+  //  await page.waitForSelector(addAddressButton);
+  //  await page.click(addAddressButton);
+
+  //Click Address First Input
+  //  const addressInput='#name'
+  //  await page.waitForSelector(addressInput);
+  //  await page.click(addressInput);
+
+  //  await page.keyboard.type('Home', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('Ugur', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('De', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('ugurtest6@kayra.com', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('5071432043', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.press("ArrowDown")
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.press("ArrowDown")
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('Sivas', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('215123123213', {delay: 100});
+  //  await page.keyboard.press("Tab")
+  //  await page.keyboard.type('Lorem sadas lorem address', {delay: 100});
+
+  //Click Save Button
+  //  const saveAddressButton="body > app-root > app-modal > div > div > div > div > app-addressadd > div > div > div.body > form > div.input-item.col-span-2.items-center.animate-none.mt-5.mb-10 > button"
+  //  await page.waitForSelector(saveAddressButton);
+  //  await page.click(saveAddressButton);
+
+  //  await page.goto("https://elonky.com/");
+  // const select="body > app-root > app-shop > app-home > div > div.Shop > app-shop-section-layout > div > div > div span > button:nth-child(2)"
+
+  //   //Click Profile Icon
+
+  //   const profileIconButtonSelector = "#header-search-input";
+  //   await page.waitForSelector(profileIconButtonSelector);
+  //   await page.click(profileIconButtonSelector);
+
+  //   await new Promise(r => setTimeout(r, 2000));
+  // await page.keyboard.type("rug", { delay: 100 });
+  //    await page.keyboard.press("Enter")
+
+  // //   await new Promise(r => setTimeout(r, 3000));
+
+  //   const wait = "#Navigation > ul > app-nav-item:nth-child(1) > li > a";
+  //   await page.waitForSelector(wait);
+  //   await page.click(wait);
+
+  //await page.keyboard.type('rug', {delay: 100});
+
+  //Click Password input
+  //   const passwordInputSeletor='body > app-root > app-modal > div > div > div > div > app-login > div > div > form > label.block.\!m-0.relative > input'
+  //   await page.waitForSelector(passwordInputSeletor);
+  //   await page.click(passwordInputSeletor);
+
+  //   const buttonSeletor='.auth-button a:contains("Login")'
+  // // login butonu seçicisi
+  //const loginButtonSelector = '.auth-button > a:contains("Login")';
+
+  // // login butonu için waitForSelector kullanarak bekleyin
+  // await page.waitForSelector(loginButtonSelector);
+
+  // // login butonuna tıklayın
+  // await page.click(loginButtonSelector);
+
+  //Locate the full title with a unique string
+  //   const textSelector = await page.waitForSelector(
+  //     'text/Customize and automate'
+  //   );
+  //   const fullTitle = await textSelector.evaluate(el => el.textContent);
+
+  // Print the full title
+  // console.log('The title of this blog post is "%s".', fullTitle);
+
+  //   await browser.close();
